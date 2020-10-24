@@ -1,5 +1,18 @@
 # beamer-mac-win
 
+mac使用beamer，目前使用CJKutf8包，
+
+具体如下，其中 字体有 gbsn（宋体）和gkai（楷体）。
+\usepackage{CJKutf8}
+\begin{document}
+\begin{CJK}{UTF8}{<font>}
+ ...
+\end{CJK}
+\end{document}
+  
+  
+## 模版
+
 \documentclass[10pt,CJKutf8]{beamer}
 \usepackage{CJKutf8}
 
